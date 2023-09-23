@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "cargo_block",
+  "pattern": [
+    "# #",
+    "#A#",
+    "#C#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:barrel"
+    },
+    "A":
+    {
+      "item": "minecraft:anvil"
+    },
+    "C":
+    {
+      "item": "minecraft:compass"
+    }
+  },
+  "result": {
+    "item": "cargo:cargo_block"
+  }
+}

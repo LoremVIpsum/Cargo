@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "cargo",
+  "version": "${version}",
+
+  "name": "Cargo",
+  "description": "Water logistics systems",
+  "authors": [
+    "LoremV"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/cargo/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.loremv.cargo.Cargo"
+    ],"client": ["com.loremv.cargo.CargoClient"]
+  },
+  "mixins": [
+    "cargo.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
